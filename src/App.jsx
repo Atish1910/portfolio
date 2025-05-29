@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 function App() {
   return (
     <>
-      <section className="bg-purple hero">
+      <section className="bg-orangeGradient hero">
         <Hero></Hero>
       </section>
     </>

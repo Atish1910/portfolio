@@ -2,16 +2,10 @@
 
 :root {
   --purple: #ffc107;
-  --light: #f1f3fa;
-  --dark: #1c1c1c;
-  --yellow: #ffb81c;
-  --blue: #1d809f;
-  --orange: #ff6900;
-  --grey: #f3f2f4;
-  --hfont: Mukta, sans-serif;
+  --dark: #000000;
+  --grey: #d7d7d7;
   --cfont: Montserrat, sans-serif;
   --headfont: "Libre Baskerville", serif;
-  --font_01: Roboto, sans-serif;
 }
 h1,
 h2,
@@ -27,6 +21,22 @@ p,
 .h5,
 .h6 {
   font-family: var(--hfont);
+}
+
+.text-dark {
+  color: var(--dark) !important;
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.text-grey {
+  color: var(--grey) !important;
+}
+
+.bg-grey {
+  background-color: var(--grey);
 }
 
 .text-blue {
@@ -80,7 +90,8 @@ p,
   font-size: 24px;
 }
 .bg-orangeGradient {
-  background-image: linear-gradient(90deg, var(--blue), var(--orange));
+  /* background-image: linear-gradient(90deg, var(--bs-white), var(--dark)); */
+  background: linear-gradient(110deg, var(--grey) 50%, var(--dark) 0);
   background-size: cover !important;
 }
 .subtitle {
