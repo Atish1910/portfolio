@@ -160,10 +160,6 @@ p,
 
 /* ///////////////////////// */
 .hero-img {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  border: 1px solid;
 }
 /* ///////////////////////// */
 
@@ -197,5 +193,5 @@ a {
   border-radius: 50%;
 }
 .hero {
-  height: 100vh;
+  /* height: 100vh; */
 }

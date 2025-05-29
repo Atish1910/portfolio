@@ -2,7 +2,7 @@ import hero1 from "../assets/img/hero/1.png";
 const Hero = () => {
   return (
     <>
-      <div className="container text-center py-5">
+      <div className="container text-center pt-5">
         <div className="row justify-content-center ">
           <div className="col-lg-6">
             <div className="d-flex justify-content-center social-icons">
