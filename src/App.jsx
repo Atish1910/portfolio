@@ -3,6 +3,8 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Overview from "./components/Overview";
+import About from "./components/About";
+import Technical from "./components/Technical";
 
 function App() {
   return (
@@ -19,8 +21,10 @@ function App() {
       </Routes>
       <section className="bg-orangeGradient hero">
         <Hero></Hero>
-        <Overview></Overview>
       </section>
+      <Overview></Overview>
+      <About></About>
+      <Technical></Technical>
     </>
   );
 }

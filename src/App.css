@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
-  --purple: #ffc107;
+  --purple: #6610f2;
   --black: #000000;
   --grey: #d7d7d7;
   --grey2: #909090;
   --grey3: #c4c4c4;
-  --cfont: Montserrat, sans-serif;
+  --font_01: Roboto, sans-serif;
   --headfont: "Libre Baskerville", serif;
 }
 
 body {
   font-size: 12px;
-  font-family: var(--headfont);
+  font-family: var(--font_01);
   background-color: #f1f1f1;
   font-display: swap;
 }
@@ -35,7 +35,7 @@ p,
 
 p,
 span {
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 
 .text-black {
@@ -215,8 +215,8 @@ a {
   align-items: center;
   color: black;
   background-color: var(--grey3);
-  font-size: 20px;
-  padding: 6px;
+  font-size: 28px;
+  padding: 8px;
   border: 1px solid var(--grey3);
 }
 .social-icons a i:hover {
@@ -228,5 +228,32 @@ a {
   /* height: 100vh; */
 }
 .designation {
-  font-size: 10px;
+  font-weight: 400;
+}
+.logo {
+  height: 60px;
+  /* filter: invert(); */
+}
+.title-01 {
+  border: solid 3px var(--black);
+  text-transform: uppercase;
+}
+.about img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.stats {
+  height: 50px;
+}
+.rank {
+  font-size: 48px !important;
+}
+.plus {
+  font-size: 24px !important;
+}
+.hero1 {
+  font-weight: 700;
+  font-size: 64px;
 }
