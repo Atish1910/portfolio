@@ -2,11 +2,21 @@
 
 :root {
   --purple: #ffc107;
-  --dark: #000000;
+  --black: #000000;
   --grey: #d7d7d7;
+  --grey2: #909090;
+  --grey3: #c4c4c4;
   --cfont: Montserrat, sans-serif;
   --headfont: "Libre Baskerville", serif;
 }
+
+body {
+  font-size: 12px;
+  font-family: var(--headfont);
+  background-color: #f1f1f1;
+  font-display: swap;
+}
+
 h1,
 h2,
 h3,
@@ -23,12 +33,17 @@ p,
   font-family: var(--hfont);
 }
 
-.text-dark {
-  color: var(--dark) !important;
+p,
+span {
+  font-size: 12px !important;
 }
 
-.bg-dark {
-  background-color: var(--dark);
+.text-black {
+  color: var(--black) !important;
+}
+
+.bg-black {
+  background-color: var(--black);
 }
 
 .text-grey {
@@ -39,6 +54,20 @@ p,
   background-color: var(--grey);
 }
 
+.text-grey2 {
+  color: var(--grey2) !important;
+}
+
+.bg-grey2 {
+  background-color: var(--grey2);
+}
+.text-grey3 {
+  color: var(--grey3) !important;
+}
+
+.bg-grey3 {
+  background-color: var(--grey3);
+}
 .text-blue {
   color: var(--blue) !important;
 }
@@ -90,8 +119,8 @@ p,
   font-size: 24px;
 }
 .bg-orangeGradient {
-  /* background-image: linear-gradient(90deg, var(--bs-white), var(--dark)); */
-  background: linear-gradient(110deg, var(--grey) 50%, var(--dark) 0);
+  /* background-image: linear-gradient(90deg, var(--bs-white), var(--black)); */
+  background: linear-gradient(110deg, var(--grey) 50%, var(--black) 0);
   background-size: cover !important;
 }
 .subtitle {
@@ -100,8 +129,8 @@ p,
   font-size: 14px;
 }
 
-.bg-dark {
-  background: var(--dark) !important;
+.bg-black {
+  background: var(--black) !important;
 }
 
 .bg-grey {
@@ -125,7 +154,7 @@ p,
 }
 
 .hero-img {
-  height: 300px;
+  height: 550px;
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -137,16 +166,15 @@ p,
   box-shadow: unset;
 }
 .c_btn {
-  background-color: var(--blue);
-  border: solid 1px var(--bs-white);
-  color: var(--bs-white);
-  /* border-radius: 0; */
+  background-color: var(--bs-white) !important;
+  border: solid 1px var(--black) !important;
+  color: var(--black) !important;
   font-size: 14px;
 }
 .c_btn:hover {
-  color: var(--dark);
-  background-color: var(--bs-white);
-  border: 1px solid var(--blue);
+  color: var(--black) !important;
+  background-color: var(--grey3) !important;
+  border: 1px solid var(--black) !important;
 }
 .right_button {
   width: 50%;
@@ -185,13 +213,20 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  background-color: var(--blue);
-  font-size: 22px;
-  padding: 5px;
-  border: 1px solid var(--blue);
-  border-radius: 50%;
+  color: black;
+  background-color: var(--grey3);
+  font-size: 20px;
+  padding: 6px;
+  border: 1px solid var(--grey3);
+}
+.social-icons a i:hover {
+  background-color: white;
+  border: solid 1px var(--grey3);
+  color: black;
 }
 .hero {
   /* height: 100vh; */
+}
+.designation {
+  font-size: 10px;
 }

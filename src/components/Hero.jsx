@@ -2,16 +2,38 @@ import hero1 from "../assets/img/hero/1.png";
 const Hero = () => {
   return (
     <>
-      <div className="container text-center pt-5">
-        <div className="row justify-content-center ">
-          <div className="col-lg-6">
-            <div className="d-flex justify-content-center social-icons">
-              <a href="">
+      <div className="container pt-5">
+        <div className="row justify-content-center align-items-center">
+          <div className="col-lg-2"></div>
+          <div className="col-lg-4">
+            <div className="">
+              <h6 className="pb-2">Hi, I am</h6>
+              <h1 className="mb-0">Ashish Kamble</h1>
+              <span className="text-greyT designation">
+                Full Stack Developer / Front-end Developer
+              </span>
+            </div>
+            <div className="d-flex social-icons pt-4">
+              <a href="" className="me-4">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="" className="me-4">
                 <i class="bi bi-github"></i>
               </a>
+              <a href="" className="me-4">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="" className="me-4">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+            <div className="pt-4">
+              <button className="btn c_btn rounded-pill px-4">
+                Download cv
+              </button>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 text-center">
             <div className="">
               <img
                 src={hero1}

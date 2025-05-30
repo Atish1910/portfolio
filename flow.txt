@@ -1,0 +1,11 @@
+Navbar
+Hero
+Overview
+About Me
+Tech Stack
+Projects
+Experience
+Education
+rather Than my Technical 
+Contact Form
+Footer
