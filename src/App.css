@@ -257,3 +257,8 @@ a {
   font-weight: 700;
   font-size: 64px;
 }
+.skills img{
+  height: 70px;
+  width: 100%;
+  object-fit: contain;
+}
