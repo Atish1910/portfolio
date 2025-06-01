@@ -15,16 +15,16 @@ const Hero = () => {
             </div>
             <div className="d-flex social-icons pt-4">
               <a href="" className="me-4">
-                <i class="bi bi-linkedin"></i>
+                <i className="bi bi-linkedin"></i>
               </a>
               <a href="" className="me-4">
-                <i class="bi bi-github"></i>
+                <i className="bi bi-github"></i>
               </a>
               <a href="" className="me-4">
-                <i class="bi bi-instagram"></i>
+                <i className="bi bi-instagram"></i>
               </a>
               <a href="" className="me-4">
-                <i class="bi bi-envelope"></i>
+                <i className="bi bi-envelope"></i>
               </a>
             </div>
             <div className="pt-4">

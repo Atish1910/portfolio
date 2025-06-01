@@ -10,24 +10,24 @@ const Overview = () => {
   ];
   return (
     <>
-      <section class="py-5">
-        <div class="container">
-          <div class="row justify-content-center">
+      <section className="py-5">
+        <div className="container">
+          <div className="row justify-content-center">
             {stats.map((stat) => {
               return (
-                <div class=" col-lg-3  d-lg-grid  ">
-                  <div class=" usp_01 py-3 bg-black rounded-3">
-                    <div class=" text-center">
+                <div className=" col-lg-3  d-lg-grid  " key={stat.text}>
+                  <div className=" usp_01 py-3 bg-black rounded-3">
+                    <div className=" text-center">
                       <img
                         src={`src/assets/img/stats/${stat.img}.png`}
                         alt=""
                         className="stats"
                       />
-                      <h6 class=" rank text-white mb-0 fw-bold  pt-3 h3">
+                      <h6 className=" rank text-white mb-0 fw-bold  pt-3 h3">
                         {stat.num}
                         <span className="plus">+</span>
                       </h6>
-                      <p class="text-white">{stat.text}</p>
+                      <p className="text-white">{stat.text}</p>
                     </div>
                   </div>
                 </div>
