@@ -34,8 +34,8 @@ const Technical = () => {
   ];
   return (
     <>
-      <section id="tech-stack" className="bg-grey1 py-5">
-        <div className="container">
+      <section className="bg-grey1" id="technical">
+        <div className="container py-5">
           <div className="row">
             <div className="col-lg-12 text-center d-flex justify-content-center mb-4">
               <h2 className="title-01 mb-0 py-2 px-5">Technical Skills</h2>

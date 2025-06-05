@@ -7,6 +7,7 @@ import Technical from "./components/Technical";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import cv from "./assets/img/hero/Ashish_kamble_resume_06_2025.pdf";
+import Wall from "./components/Wall";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Technical />
       <Projects />
       <Experience />
+      <Wall></Wall>
     </>
   );
 }

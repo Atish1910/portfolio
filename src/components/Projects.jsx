@@ -51,8 +51,8 @@ const Projects = () => {
 
   return (
     <>
-      <section id="projects" className="programsSection py-5 bg-grey">
-        <div className="container">
+      <section id="projects" className="programsSection bg-grey">
+        <div className="container py-5 ">
           <div className="row">
             <div className="col-lg-12 text-center d-flex justify-content-center mb-4">
               <h2 className="title-01 mb-0 py-2 px-5">Projects</h2>

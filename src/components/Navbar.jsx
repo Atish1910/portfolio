@@ -4,7 +4,7 @@ import logo from "../assets/img/logo/logo.png";
 const navItems = [
   { name: "Stats", id: "overview" },
   { name: "About Me", id: "about-me" },
-  { name: "Tech Stack", id: "tech-stack" },
+  { name: "Technical Skills", id: "technical" },
   { name: "Projects", id: "projects" },
   { name: "Journey", id: "journey" },
   { name: "Contact Me", id: "contact-me" },
@@ -14,17 +14,33 @@ const Navbar = () => {
   const [activeId, setActiveId] = useState("");
 
   useEffect(() => {
+    const visibleSections = new Map();
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            setActiveId(entry.target.id);
+            visibleSections.set(entry.target.id, entry.intersectionRatio);
+          } else {
+            visibleSections.delete(entry.target.id);
           }
         });
+
+        let topSection = "";
+        let maxRatio = 0;
+
+        visibleSections.forEach((ratio, id) => {
+          if (ratio > maxRatio) {
+            maxRatio = ratio;
+            topSection = id;
+          }
+        });
+
+        if (topSection) setActiveId(topSection);
       },
       {
-        rootMargin: "-100px 0px -50% 0px", // adjust this value to match your navbar height
-        threshold: 0.3,
+        rootMargin: "-100px 0px -50% 0px", // adjust based on your navbar height
+        threshold: [0.25, 0.5, 0.75],
       }
     );
 
@@ -36,13 +52,13 @@ const Navbar = () => {
     return () => observer.disconnect();
   }, []);
 
-  // Scroll offset fix for anchor links
   const handleLinkClick = (e, id) => {
     e.preventDefault();
     const section = document.getElementById(id);
-    const yOffset = -80; // adjust to your navbar height
+    const yOffset = -80; // adjust based on your navbar height
     const y =
       section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
     window.scrollTo({ top: y, behavior: "smooth" });
   };
 
