@@ -277,6 +277,11 @@ a {
 .project .img-box:hover img {
   opacity: 0.5;
 }
+.wall img {
+  height: 350px;
+  width: 100%;
+  object-fit: contain;
+}
 
 .project .img-box:hover {
   background-color: #000000eb;
