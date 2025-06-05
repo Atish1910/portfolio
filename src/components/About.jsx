@@ -1,10 +1,10 @@
 import React from "react";
 import about1 from "../assets/img/hero/2.jpg";
 
-const About = () => {
+const About = ({ cv }) => {
   return (
     <>
-      <section className="bg-grey3 py-5 about">
+      <section className="bg-grey3 py-5 about" id="about-me">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center d-flex justify-content-center mb-4">
@@ -32,6 +32,9 @@ const About = () => {
                 Passionate about delivering intuitive user experiences and
                 contributing to innovative projects.
               </p>
+              <button className="btn c_btn rounded-pill px-4">
+                <a href={cv}>Download cv</a>
+              </button>
             </div>
           </div>
         </div>

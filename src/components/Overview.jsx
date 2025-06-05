@@ -5,12 +5,12 @@ const Overview = () => {
   const stats = [
     { img: "1", num: "70", text: "Projects Completed" },
     { img: "2", num: "5", text: "Custom Admin Panels" },
-    { img: "3", num: "50,000", text: "Lines of Code" },
+    { img: "3", num: "100,000", text: "Lines of Code" },
     { img: "4", num: "2.5", text: "Years of Development Experience" },
   ];
   return (
     <>
-      <section className="py-5">
+      <section className="py-5" id="overview">
         <div className="container">
           <div className="row justify-content-center">
             {stats.map((stat) => {
