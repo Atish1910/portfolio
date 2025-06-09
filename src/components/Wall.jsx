@@ -23,7 +23,7 @@ const Wall = () => {
               return (
                 <div className="col-lg-3 col-6 text-center mb-4 pt-2">
                   <img
-                    src={`./assets/img/wall/${g.img}.jpg`}
+                    src={`src/assets/img/wall/${g.img}.jpg`}
                     className=""
                     alt=""
                   />

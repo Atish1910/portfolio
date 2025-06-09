@@ -1,5 +1,31 @@
 import React from "react";
 
+import lImg1 from "../assets/img/skills/front/1.png";
+import lImg2 from "../assets/img/skills/front/2.png";
+import lImg3 from "../assets/img/skills/front/3.png";
+import lImg4 from "../assets/img/skills/front/4.png";
+import lImg5 from "../assets/img/skills/front/5.png";
+import lImg6 from "../assets/img/skills/front/6.png";
+import lImg7 from "../assets/img/skills/front/7.png";
+import lImg8 from "../assets/img/skills/front/8.png";
+import lImg9 from "../assets/img/skills/front/9.png";
+
+import bImg1 from "../assets/img/skills/backend/1.png";
+import bImg2 from "../assets/img/skills/backend/2.png";
+import bImg3 from "../assets/img/skills/backend/3.png";
+import bImg4 from "../assets/img/skills/backend/4.png";
+import bImg5 from "../assets/img/skills/backend/5.png";
+import bImg6 from "../assets/img/skills/backend/6.png";
+import bImg7 from "../assets/img/skills/backend/7.png";
+import bImg8 from "../assets/img/skills/backend/8.png";
+
+import dImg1 from "../assets/img/skills/deployment/1.png";
+import dImg2 from "../assets/img/skills/deployment/2.png";
+import dImg3 from "../assets/img/skills/deployment/3.png";
+import dImg4 from "../assets/img/skills/deployment/4.png";
+import dImg5 from "../assets/img/skills/deployment/5.png";
+import dImg6 from "../assets/img/skills/deployment/6.png";
+
 const Technical = () => {
   const language = [
     { img: 1, name: "React" },
@@ -51,11 +77,7 @@ const Technical = () => {
                   className="col-lg-2 col-4 text-center mb-4 pt-2"
                   key={lang.name}
                 >
-                  <img
-                    src={`/assets/img/skills/front/${lang.img}.png`}
-                    className=""
-                    alt=""
-                  />
+                  <img src={`${lImg6}${lang.img}`} className="" alt="" />
                   <p className="text-grey2 pt-1">{lang.name}</p>
                 </div>
               );
