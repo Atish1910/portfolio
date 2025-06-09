@@ -19,7 +19,7 @@ const Overview = () => {
                   <div className=" usp_01 py-3 bg-black rounded-3">
                     <div className=" text-center">
                       <img
-                        src={`src/assets/img/stats/${stat.img}.png`}
+                        src={`/assets/img/stats/${stat.img}.png`}
                         alt=""
                         className="stats"
                       />

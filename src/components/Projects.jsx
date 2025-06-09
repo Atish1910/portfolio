@@ -110,7 +110,7 @@ const Projects = () => {
                           <div className="card ">
                             <div className="img-box position-relative">
                               <img
-                                src={`src/assets/img/project/backend/${f.img}.PNG`}
+                                src={`/assets/img/project/backend/${f.img}.PNG`}
                                 className="card-img-top"
                                 alt="..."
                               />
@@ -163,7 +163,7 @@ const Projects = () => {
                           <div className="card ">
                             <div className="img-box position-relative">
                               <img
-                                src={`src/assets/img/project/frontend/${f.img}.PNG`}
+                                src={`/assets/img/project/frontend/${f.img}.PNG`}
                                 className="card-img-top"
                                 alt="..."
                               />

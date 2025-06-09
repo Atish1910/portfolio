@@ -52,7 +52,7 @@ const Technical = () => {
                   key={lang.name}
                 >
                   <img
-                    src={`src/assets/img/skills/front/${lang.img}.png`}
+                    src={`/assets/img/skills/front/${lang.img}.png`}
                     className=""
                     alt=""
                   />
@@ -72,7 +72,7 @@ const Technical = () => {
                   key={b.name}
                 >
                   <img
-                    src={`src/assets/img/skills/backend/${b.img}.png`}
+                    src={`/assets/img/skills/backend/${b.img}.png`}
                     className=""
                     alt=""
                   />
@@ -92,7 +92,7 @@ const Technical = () => {
                   key={d.name}
                 >
                   <img
-                    src={`src/assets/img/skills/deployment/${d.img}.png`}
+                    src={`/assets/img/skills/deployment/${d.img}.png`}
                     className=""
                     alt=""
                   />
