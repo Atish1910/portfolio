@@ -47,7 +47,10 @@ const Technical = () => {
             </div>
             {language.map((lang) => {
               return (
-                <div className="col-lg-2 text-center mb-4 pt-2" key={lang.name}>
+                <div
+                  className="col-lg-2 col-4 text-center mb-4 pt-2"
+                  key={lang.name}
+                >
                   <img
                     src={`src/assets/img/skills/front/${lang.img}.png`}
                     className=""
@@ -64,7 +67,10 @@ const Technical = () => {
             </div>
             {backend.map((b) => {
               return (
-                <div className="col-lg-2 text-center mb-4 pt-2" key={b.name}>
+                <div
+                  className="col-lg-2 col-4 text-center mb-4 pt-2"
+                  key={b.name}
+                >
                   <img
                     src={`src/assets/img/skills/backend/${b.img}.png`}
                     className=""
@@ -81,7 +87,10 @@ const Technical = () => {
             </div>
             {deployment.map((d) => {
               return (
-                <div className="col-lg-2 text-center mb-4 pt-2" key={d.name}>
+                <div
+                  className="col-lg-2 col-4 text-center mb-4 pt-2"
+                  key={d.name}
+                >
                   <img
                     src={`src/assets/img/skills/deployment/${d.img}.png`}
                     className=""

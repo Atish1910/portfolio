@@ -15,7 +15,7 @@ const About = ({ cv }) => {
                 <img src={about1} className="" alt="" />
               </div>
             </div>
-            <div className="col-lg-7">
+            <div className="col-lg-7 pt-3">
               <h3 className="mb-0">Ashish Kamble</h3>
               <p className="text-purple">
                 Full Stack Developer &nbsp; | &nbsp; Front-End Developer

@@ -108,9 +108,14 @@ const Experience = () => {
                                 Express.js and MongoDB to support efficient
                                 backend operations.
                               </li>
+                              <p class="text-fw-bold text-bold d-lg-none">
+                                June 2024 - Present
+                              </p>
                             </ul>
                           </div>
-                          <p class="text-fw-bold">June 2024 - Present</p>
+                          <p class="text-fw-bold d-none d-lg-block">
+                            June 2024 - Present
+                          </p>
                         </div>
                       </li>
 
@@ -151,9 +156,14 @@ const Experience = () => {
                                 client satisfaction through learning and
                                 delivering quality-driven solutions.
                               </li>
+                              <p class="text-fw-bold d-lg-none">
+                                Oct 2023 - May 2024
+                              </p>
                             </ul>
                           </div>
-                          <p class="text-fw-bold">Oct 2023 - May 2024</p>
+                          <p class="text-fw-bold d-none d-lg-block">
+                            Oct 2023 - May 2024
+                          </p>
                         </div>
                       </li>
                       <li>
@@ -178,9 +188,14 @@ const Experience = () => {
                                 transitioning into a professional development
                                 environment.
                               </li>
+                              <p class="text-fw-bold d-lg-none">
+                                June 2022 - Oct 2022
+                              </p>
                             </ul>
                           </div>
-                          <p class="text-fw-bold">June 2022 - Oct 2022</p>
+                          <p class="text-fw-bold d-lg-block d-none">
+                            June 2022 - Oct 2022
+                          </p>
                         </div>
                       </li>
                     </ul>
@@ -243,8 +258,15 @@ const Experience = () => {
                                 features and middleware.
                               </li>
                             </ul>
+                            <p class="text-fw-bold d-lg-none">
+                              {" "}
+                              Feb 2023 To Jan 2024
+                            </p>
                           </div>
-                          <p class="text-fw-bold"> Feb 2023 To Jan 2024</p>
+                          <p class="text-fw-bold d-lg-block d-none">
+                            {" "}
+                            Feb 2023 To Jan 2024
+                          </p>
                         </div>
                       </li>
 
@@ -260,8 +282,16 @@ const Experience = () => {
                               </span>
                             </span>
                           </div>
-                          <div class="desc"></div>
-                          <p class="text-fw-bold"> Aug 2018 - Nov 2021</p>
+                          <div class="desc ">
+                            <p class="text-fw-bold d-lg-none mb-0">
+                              {" "}
+                              Aug 2018 - Nov 2021
+                            </p>
+                          </div>
+                          <p class="text-fw-bold d-lg-block d-none">
+                            {" "}
+                            Aug 2018 - Nov 2021
+                          </p>
                         </div>
                       </li>
                       <li>
@@ -276,8 +306,16 @@ const Experience = () => {
                               </span>
                             </span>
                           </div>
-                          <div class="desc"></div>
-                          <p class="text-fw-bold"> Feb 2014 To Jan 2018</p>
+                          <div class="desc">
+                            <p class="text-fw-bold d-lg-none mb-0">
+                              {" "}
+                              Feb 2014 To Jan 2018
+                            </p>
+                          </div>
+                          <p class="text-fw-bold d-none d-lg-block mb-0">
+                            {" "}
+                            Feb 2014 To Jan 2018
+                          </p>
                         </div>
                       </li>
                     </ul>

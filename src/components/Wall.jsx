@@ -21,7 +21,7 @@ const Wall = () => {
             <div className="col-lg-12"></div>
             {gallery.map((g) => {
               return (
-                <div className="col-lg-3 text-center mb-4 pt-2">
+                <div className="col-lg-3 col-6 text-center mb-4 pt-2">
                   <img
                     src={`src/assets/img/wall/${g.img}.jpg`}
                     className=""

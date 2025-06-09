@@ -120,7 +120,7 @@ span {
 }
 .bg-orangeGradient {
   /* background-image: linear-gradient(90deg, var(--bs-white), var(--black)); */
-  background: linear-gradient(110deg, var(--grey) 50%, var(--black) 0);
+  background: linear-gradient(180deg, var(--grey) 50%, var(--black) 0);
   background-size: cover !important;
 }
 .subtitle {
@@ -144,6 +144,9 @@ span {
 .bg_grad_01 {
   background-color: var(--purple);
 }
+a {
+  color: #000000 !important;
+}
 
 .back-to-top {
   position: fixed;
@@ -154,7 +157,7 @@ span {
 }
 
 .hero-img {
-  height: 550px;
+  height: 290px;
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -242,7 +245,7 @@ a {
   font-weight: 400;
 }
 .logo {
-  height: 60px;
+  height: 40px;
   /* filter: invert(); */
 }
 .title-01 {
@@ -270,7 +273,7 @@ a {
   font-size: 64px;
 }
 .skills img {
-  height: 70px;
+  height: 44px;
   width: 100%;
   object-fit: contain;
 }
@@ -278,7 +281,7 @@ a {
   opacity: 0.5;
 }
 .wall img {
-  height: 350px;
+  height: 220px;
   width: 100%;
   object-fit: contain;
 }
@@ -522,7 +525,7 @@ a {
   .direction-l .flag::before,
   .direction-r .flag::before {
     top: -30px;
-    left: 50%;
+    left: 52%;
     margin-left: -10px;
   }
 
@@ -535,11 +538,70 @@ a {
 
   .desc {
     position: relative;
-    margin: 1em 1em 0 1em;
+    /* margin: 1em 1em 0 1em; */
     padding: 1em;
     background: rgb(245, 245, 245);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
     z-index: 15;
   }
 }
 /* ////////////////////////////////////////////// */
+
+.form-control {
+  background-color: transparent !important;
+  border: solid 3px #000 !important;
+  border-radius: 0px !important;
+  border-top: 0 !important;
+  border-right: 0 !important;
+}
+.form-control:focus {
+  box-shadow: unset !important;
+}
+.btn-form {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  border-radius: 0 !important;
+  border: solid 3px !important;
+  border-top: unset !important;
+  border-bottom: unset !important;
+}
+.btn-form:hover {
+  border-top: solid 3px !important;
+  border-bottom: solid 3px !important;
+}
+.input-errors {
+  border: 1px solid red !important;
+}
+.navbar-toggler-icon {
+  filter: invert(1) !important;
+}
+.footerlogo {
+  height: 80px;
+  object-fit: contain;
+}
+.footer .social-icons a i {
+  font-size: 18px !important;
+  color: black;
+  background-color: var(--grey) !important;
+  border: 1px solid var(--grey) !important;
+}
+@media (min-width: 768px) {
+  .logo {
+    height: 60px;
+  }
+
+  .bg-orangeGradient {
+    background: linear-gradient(110deg, var(--grey) 50%, var(--black) 0);
+    background-size: cover !important;
+  }
+  .hero-img {
+    height: 550px;
+  }
+
+  .skills img {
+    height: 70px;
+  }
+  .wall img {
+    height: 350px;
+  }
+}

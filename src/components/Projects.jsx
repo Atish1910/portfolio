@@ -106,7 +106,7 @@ const Projects = () => {
                   <div className="row project">
                     {fullstack.map((f) => {
                       return (
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 mb-4">
                           <div className="card ">
                             <div className="img-box position-relative">
                               <img
@@ -159,7 +159,7 @@ const Projects = () => {
                   <div className="row project">
                     {frontend.map((f) => {
                       return (
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 mb-4">
                           <div className="card ">
                             <div className="img-box position-relative">
                               <img

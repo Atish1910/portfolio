@@ -15,7 +15,7 @@ const Overview = () => {
           <div className="row justify-content-center">
             {stats.map((stat) => {
               return (
-                <div className=" col-lg-3  d-lg-grid  " key={stat.text}>
+                <div className=" col-lg-3  d-lg-grid mb-3 " key={stat.text}>
                   <div className=" usp_01 py-3 bg-black rounded-3">
                     <div className=" text-center">
                       <img

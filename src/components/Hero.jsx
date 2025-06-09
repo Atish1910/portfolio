@@ -7,7 +7,7 @@ const Hero = ({ cv }) => {
         <div className="container pt-5">
           <div className="row justify-content-center align-items-center">
             <div className="col-lg-2"></div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 pb-5">
               <div className="">
                 <h6 className="mb-0 h3">Hi,</h6>
                 <h1 className="mb-0 hero1"> I am Ashish</h1>
