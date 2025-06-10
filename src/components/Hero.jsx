@@ -1,4 +1,4 @@
-import hero1 from "../assets/img/hero/1.png";
+import hero1 from "/assets/img/hero/1.png";
 // import cv from "../assets/img/hero/Ashish_kamble_resume_06_2025.pdf";
 const Hero = ({ cv }) => {
   return (

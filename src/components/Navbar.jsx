@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../assets/img/logo/logo.png";
+import logo from "/assets/img/logo/logo.png";
 
 const navItems = [
   { name: "Stats", id: "overview" },

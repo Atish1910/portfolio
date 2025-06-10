@@ -1,10 +1,10 @@
-import gImg1 from "../assets/img/wall/1.jpg";
-import gImg2 from "../assets/img/wall/2.jpg";
-import gImg3 from "../assets/img/wall/3.jpg";
-import gImg4 from "../assets/img/wall/4.jpg";
-import gImg5 from "../assets/img/wall/5.jpg";
-import gImg6 from "../assets/img/wall/6.jpg";
-import gImg7 from "../assets/img/wall/7.jpg";
+import gImg1 from "/assets/img/wall/1.jpg";
+import gImg2 from "/assets/img/wall/2.jpg";
+import gImg3 from "/assets/img/wall/3.jpg";
+import gImg4 from "/assets/img/wall/4.jpg";
+import gImg5 from "/assets/img/wall/5.jpg";
+import gImg6 from "/assets/img/wall/6.jpg";
+import gImg7 from "/assets/img/wall/7.jpg";
 
 const Wall = ({ logo }) => {
   const gallery = [

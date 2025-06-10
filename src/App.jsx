@@ -6,11 +6,11 @@ import About from "./components/About";
 import Technical from "./components/Technical";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
-import cv from "./assets/img/hero/Ashish_kamble_resume_06_2025.pdf";
+import cv from "/assets/img/hero/Ashish_kamble_resume_06_2025.pdf";
 import Wall from "./components/Wall";
 import Contact from "./components/Contact";
 import Footer from "./Footer";
-import logo from "./assets/img/logo/logo.png";
+import logo from "/assets/img/logo/logo.png";
 function App() {
   return (
     <>
