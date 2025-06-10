@@ -1,38 +1,46 @@
 import React from "react";
 
 const Technical = () => {
-const language = [
-  { languageImg: "/assets/img/skills/front/1.png", name: "React" },
-  { languageImg: "/assets/img/skills/front/9.png", name: "Redux" },
-  { languageImg: "/assets/img/skills/front/2.png", name: "Javascript" },
-  { languageImg: "/assets/img/skills/front/3.png", name: "Typescript" },
-  { languageImg: "/assets/img/skills/front/8.png", name: "JSON" },
-  { languageImg: "/assets/img/skills/front/6.png", name: "JQuery" },
-  { languageImg: "/assets/img/skills/front/4.png", name: "Bootstrap" },
-  { languageImg: "/assets/img/skills/front/5.png", name: "Css3" },
-  { languageImg: "/assets/img/skills/front/7.png", name: "HTML5" },
-];
+  const language = [
+    { languageImg: "/assets/img/skills/front/1.png", name: "React" },
+    { languageImg: "/assets/img/skills/front/9.png", name: "Redux" },
+    { languageImg: "/assets/img/skills/front/2.png", name: "Javascript" },
+    { languageImg: "/assets/img/skills/front/3.png", name: "Typescript" },
+    { languageImg: "/assets/img/skills/front/8.png", name: "JSON" },
+    { languageImg: "/assets/img/skills/front/6.png", name: "JQuery" },
+    { languageImg: "/assets/img/skills/front/4.png", name: "Bootstrap" },
+    { languageImg: "/assets/img/skills/front/5.png", name: "Css3" },
+    { languageImg: "/assets/img/skills/front/7.png", name: "HTML5" },
+  ];
 
-const backend = [
-  { backendImg: "/assets/img/skills/backend/1.png", name: "Node" },
-  { backendImg: "/assets/img/skills/backend/2.png", name: "Express" },
-  { backendImg: "/assets/img/skills/backend/3.png", name: "Java" },
-  { backendImg: "/assets/img/skills/backend/4.png", name: "Php" },
-  { backendImg: "/assets/img/skills/backend/5.png", name: "MongoDB" },
-  { backendImg: "/assets/img/skills/backend/6.png", name: "MySql" },
-  { backendImg: "/assets/img/skills/backend/7.png", name: "Postman (API Testing)" },
-  { backendImg: "/assets/img/skills/backend/8.png", name: "Swagger (API Testing)" },
-];
+  const backend = [
+    { backendImg: "/assets/img/skills/backend/1.png", name: "Node" },
+    { backendImg: "/assets/img/skills/backend/2.png", name: "Express" },
+    { backendImg: "/assets/img/skills/backend/3.png", name: "Java" },
+    { backendImg: "/assets/img/skills/backend/4.png", name: "Php" },
+    { backendImg: "/assets/img/skills/backend/5.png", name: "MongoDB" },
+    { backendImg: "/assets/img/skills/backend/6.png", name: "MySql" },
+    {
+      backendImg: "/assets/img/skills/backend/7.png",
+      name: "Postman (API Testing)",
+    },
+    {
+      backendImg: "/assets/img/skills/backend/8.png",
+      name: "Swagger (API Testing)",
+    },
+  ];
 
-
- const deployment = [
-  { deploymentImg: "/assets/img/skills/deployment/1.png", name: "AWS (s3 Bucket)" },
-  { deploymentImg: "/assets/img/skills/deployment/2.png", name: "Cpanel" },
-  { deploymentImg: "/assets/img/skills/deployment/3.png", name: "Vercel" },
-  { deploymentImg: "/assets/img/skills/deployment/4.png", name: "Render" },
-  { deploymentImg: "/assets/img/skills/deployment/5.png", name: "Git" },
-  { deploymentImg: "/assets/img/skills/deployment/6.png", name: "Gitlab" },
-];
+  const deployment = [
+    {
+      deploymentImg: "/assets/img/skills/deployment/1.png",
+      name: "AWS (s3 Bucket)",
+    },
+    { deploymentImg: "/assets/img/skills/deployment/2.png", name: "Cpanel" },
+    { deploymentImg: "/assets/img/skills/deployment/3.png", name: "Vercel" },
+    { deploymentImg: "/assets/img/skills/deployment/4.png", name: "Render" },
+    { deploymentImg: "/assets/img/skills/deployment/5.png", name: "Git" },
+    { deploymentImg: "/assets/img/skills/deployment/6.png", name: "Gitlab" },
+  ];
   return (
     <>
       <section className="bg-grey1" id="technical">
