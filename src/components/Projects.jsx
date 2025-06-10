@@ -1,11 +1,11 @@
 import React from "react";
-import fullImg1 from "/assets/img/project/backend/1.png";
-import fullImg2 from "/assets/img/project/backend/2.png";
-import fullImg3 from "/assets/img/project/backend/3.png";
+import fullImg1 from "../assets/img/project/backend/1.png";
+import fullImg2 from "../assets/img/project/backend/2.png";
+import fullImg3 from "../assetsimg/project/backend/3.png";
 
-import frontImg1 from "/assets/img/project/frontend/1.png";
-import frontImg2 from "/assets/img/project/frontend/2.png";
-import frontImg3 from "/assets/img/project/frontend/3.png";
+import frontImg1 from "../assets/img/project/frontend/1.png";
+import frontImg2 from "../assets/img/project/frontend/2.png";
+import frontImg3 from "../assets/img/project/frontend/3.png";
 
 const Projects = () => {
   const fullstack = [
