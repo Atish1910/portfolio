@@ -21,7 +21,7 @@ function App() {
       <Technical />
       <Projects />
       <Experience />
-      <Wall></Wall>
+      <Wall logo={logo}></Wall>
       <Contact></Contact>
       <Footer logo={logo}></Footer>
     </>
