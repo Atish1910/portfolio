@@ -1,14 +1,14 @@
 import React from "react";
 
 import lImg1 from "../assets/img/skills/front/1.png";
+import lImg9 from "../assets/img/skills/front/9.png";
 import lImg2 from "../assets/img/skills/front/2.png";
 import lImg3 from "../assets/img/skills/front/3.png";
+import lImg8 from "../assets/img/skills/front/8.png";
+import lImg6 from "../assets/img/skills/front/6.png";
 import lImg4 from "../assets/img/skills/front/4.png";
 import lImg5 from "../assets/img/skills/front/5.png";
-import lImg6 from "../assets/img/skills/front/6.png";
 import lImg7 from "../assets/img/skills/front/7.png";
-import lImg8 from "../assets/img/skills/front/8.png";
-import lImg9 from "../assets/img/skills/front/9.png";
 
 import bImg1 from "../assets/img/skills/backend/1.png";
 import bImg2 from "../assets/img/skills/backend/2.png";
@@ -28,35 +28,35 @@ import dImg6 from "../assets/img/skills/deployment/6.png";
 
 const Technical = () => {
   const language = [
-    { img: 1, name: "React" },
-    { img: 9, name: "Redux" },
-    { img: 2, name: "Javascript" },
-    { img: 3, name: "Typescript" },
-    { img: 8, name: "JSON" },
-    { img: 6, name: "JQuery" },
-    { img: 4, name: "Bootstrap" },
-    { img: 5, name: "Css3" },
-    { img: 7, name: "HTML5" },
+    { img: lImg1, name: "React" },
+    { img: lImg9, name: "Redux" },
+    { img: lImg2, name: "Javascript" },
+    { img: lImg3, name: "Typescript" },
+    { img: lImg8, name: "JSON" },
+    { img: lImg6, name: "JQuery" },
+    { img: lImg4, name: "Bootstrap" },
+    { img: lImg5, name: "Css3" },
+    { img: lImg7, name: "HTML5" },
   ];
 
   const backend = [
-    { img: 1, name: "Node" },
-    { img: 2, name: "Express" },
-    { img: 3, name: "Java" },
-    { img: 4, name: "Php" },
-    { img: 5, name: "MongoDB" },
-    { img: 6, name: "MySql" },
-    { img: 7, name: "Postman (API Testing)" },
-    { img: 8, name: "Swagger (API Testing)" },
+    { img: bImg1, name: "Node" },
+    { img: bImg2, name: "Express" },
+    { img: bImg3, name: "Java" },
+    { img: bImg4, name: "Php" },
+    { img: bImg5, name: "MongoDB" },
+    { img: bImg6, name: "MySql" },
+    { img: bImg7, name: "Postman (API Testing)" },
+    { img: bImg8, name: "Swagger (API Testing)" },
   ];
 
   const deployment = [
-    { img: 1, name: "AWS (s3 Bucket)" },
-    { img: 2, name: "Cpanel" },
-    { img: 3, name: "Vercel" },
-    { img: 4, name: "Render" },
-    { img: 5, name: "Git" },
-    { img: 6, name: "Gitlab" },
+    { img: dImg1, name: "AWS (s3 Bucket)" },
+    { img: dImg2, name: "Cpanel" },
+    { img: dImg3, name: "Vercel" },
+    { img: dImg4, name: "Render" },
+    { img: dImg5, name: "Git" },
+    { img: dImg6, name: "Gitlab" },
   ];
   return (
     <>
@@ -77,7 +77,7 @@ const Technical = () => {
                   className="col-lg-2 col-4 text-center mb-4 pt-2"
                   key={lang.name}
                 >
-                  <img src={`${lImg6}${lang.img}`} className="" alt="" />
+                  <img src={lang.img} className="" alt="" />
                   <p className="text-grey2 pt-1">{lang.name}</p>
                 </div>
               );
@@ -93,11 +93,7 @@ const Technical = () => {
                   className="col-lg-2 col-4 text-center mb-4 pt-2"
                   key={b.name}
                 >
-                  <img
-                    src={`/assets/img/skills/backend/${b.img}.png`}
-                    className=""
-                    alt=""
-                  />
+                  <img src={`${b.img}`} className="" alt="" />
                   <p className="text-grey2 pt-1">{b.name}</p>
                 </div>
               );
@@ -113,11 +109,7 @@ const Technical = () => {
                   className="col-lg-2 col-4 text-center mb-4 pt-2"
                   key={d.name}
                 >
-                  <img
-                    src={`/assets/img/skills/deployment/${d.img}.png`}
-                    className=""
-                    alt=""
-                  />
+                  <img src={`${d.img}`} className="" alt="" />
                   <p className="text-grey2 pt-1">{d.name}</p>
                 </div>
               );

@@ -1,12 +1,20 @@
+import gImg1 from "../assets/img/wall/1.jpg";
+import gImg2 from "../assets/img/wall/2.jpg";
+import gImg3 from "../assets/img/wall/3.jpg";
+import gImg4 from "../assets/img/wall/4.jpg";
+import gImg5 from "../assets/img/wall/5.jpg";
+import gImg6 from "../assets/img/wall/6.jpg";
+import gImg7 from "../assets/img/wall/7.jpg";
+
 const Wall = () => {
   const gallery = [
-    { img: 1 },
-    { img: 2 },
-    { img: 3 },
-    { img: 4 },
-    { img: 5 },
-    { img: 6 },
-    { img: 7 },
+    { img: gImg1 },
+    { img: gImg2 },
+    { img: gImg3 },
+    { img: gImg4 },
+    { img: gImg5 },
+    { img: gImg6 },
+    { img: gImg7 },
   ];
   return (
     <>
@@ -22,11 +30,7 @@ const Wall = () => {
             {gallery.map((g) => {
               return (
                 <div className="col-lg-3 col-6 text-center mb-4 pt-2">
-                  <img
-                    src={`src/assets/img/wall/${g.img}.jpg`}
-                    className=""
-                    alt=""
-                  />
+                  <img src={`${g.img}`} className="" alt="" />
                 </div>
               );
             })}

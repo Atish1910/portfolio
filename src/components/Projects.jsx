@@ -1,23 +1,30 @@
 import React from "react";
+import fullImg1 from "../assets/img/project/backend/1.png";
+import fullImg2 from "../assets/img/project/backend/2.png";
+import fullImg3 from "../assets/img/project/backend/3.png";
+
+import frontImg1 from "../assets/img/project/frontend/1.png";
+import frontImg2 from "../assets/img/project/frontend/2.png";
+import frontImg3 from "../assets/img/project/frontend/3.png";
 
 const Projects = () => {
   const fullstack = [
     {
-      img: 1,
+      img: fullImg1,
       title: "Ballr Table Booking App",
       techstack: " React, redux, Node, Express, mongoDB",
       link: "https://ballr-table-booking.vercel.app/",
       git: "Ballr-Table-Booking-db",
     },
     {
-      img: 2,
+      img: fullImg2,
       title: "Luxelan",
       techstack: " Php, Bootstrap, Mysql",
       link: "https://luxelan,in/",
       git: "",
     },
     {
-      img: 3,
+      img: fullImg3,
       title: "Rolls Mania",
       techstack: "Php, Bootstrap, Mysql",
       link: "https://www.rollsmania.com/",
@@ -27,21 +34,21 @@ const Projects = () => {
 
   const frontend = [
     {
-      img: 1,
+      img: frontImg1,
       title: "E Commerce",
       techstack: " React, redux, Rest API",
       link: "https://e-commerce-ten-ochre-57.vercel.app/",
       git: "E-Commerce",
     },
     {
-      img: 2,
+      img: frontImg2,
       title: "Paste App",
       techstack: " React, redux, Rest API",
       link: "https://vercel.com/ashish-kambles-projects/react-paste-app",
       git: "React-pasteApp",
     },
     {
-      img: 3,
+      img: frontImg3,
       title: "Dice Game",
       techstack: "React, redux, Rest API",
       link: "https://dice-game-dusky-nu.vercel.app/",
@@ -110,7 +117,7 @@ const Projects = () => {
                           <div className="card ">
                             <div className="img-box position-relative">
                               <img
-                                src={`/assets/img/project/backend/${f.img}.PNG`}
+                                src={`${f.img}`}
                                 className="card-img-top"
                                 alt="..."
                               />
@@ -163,7 +170,7 @@ const Projects = () => {
                           <div className="card ">
                             <div className="img-box position-relative">
                               <img
-                                src={`/assets/img/project/frontend/${f.img}.PNG`}
+                                src={`${f.img}`}
                                 className="card-img-top"
                                 alt="..."
                               />
