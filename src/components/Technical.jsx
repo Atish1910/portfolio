@@ -28,35 +28,35 @@ import dImg6 from "../assets/img/skills/deployment/6.png";
 
 const Technical = () => {
   const language = [
-    { img: lImg1, name: "React" },
-    { img: lImg9, name: "Redux" },
-    { img: lImg2, name: "Javascript" },
-    { img: lImg3, name: "Typescript" },
-    { img: lImg8, name: "JSON" },
-    { img: lImg6, name: "JQuery" },
-    { img: lImg4, name: "Bootstrap" },
-    { img: lImg5, name: "Css3" },
-    { img: lImg7, name: "HTML5" },
+    { languageImg: lImg1, name: "React" },
+    { languageImg: lImg9, name: "Redux" },
+    { languageImg: lImg2, name: "Javascript" },
+    { languageImg: lImg3, name: "Typescript" },
+    { languageImg: lImg8, name: "JSON" },
+    { languageImg: lImg6, name: "JQuery" },
+    { languageImg: lImg4, name: "Bootstrap" },
+    { languageImg: lImg5, name: "Css3" },
+    { languageImg: lImg7, name: "HTML5" },
   ];
 
   const backend = [
-    { img: bImg1, name: "Node" },
-    { img: bImg2, name: "Express" },
-    { img: bImg3, name: "Java" },
-    { img: bImg4, name: "Php" },
-    { img: bImg5, name: "MongoDB" },
-    { img: bImg6, name: "MySql" },
-    { img: bImg7, name: "Postman (API Testing)" },
-    { img: bImg8, name: "Swagger (API Testing)" },
+    { backendImg: bImg1, name: "Node" },
+    { backendImg: bImg2, name: "Express" },
+    { backendImg: bImg3, name: "Java" },
+    { backendImg: bImg4, name: "Php" },
+    { backendImg: bImg5, name: "MongoDB" },
+    { backendImg: bImg6, name: "MySql" },
+    { backendImg: bImg7, name: "Postman (API Testing)" },
+    { backendImg: bImg8, name: "Swagger (API Testing)" },
   ];
 
   const deployment = [
-    { img: dImg1, name: "AWS (s3 Bucket)" },
-    { img: dImg2, name: "Cpanel" },
-    { img: dImg3, name: "Vercel" },
-    { img: dImg4, name: "Render" },
-    { img: dImg5, name: "Git" },
-    { img: dImg6, name: "Gitlab" },
+    { deploymentImg: dImg1, name: "AWS (s3 Bucket)" },
+    { deploymentImg: dImg2, name: "Cpanel" },
+    { deploymentImg: dImg3, name: "Vercel" },
+    { deploymentImg: dImg4, name: "Render" },
+    { deploymentImg: dImg5, name: "Git" },
+    { deploymentImg: dImg6, name: "Gitlab" },
   ];
   return (
     <>
@@ -77,7 +77,7 @@ const Technical = () => {
                   className="col-lg-2 col-4 text-center mb-4 pt-2"
                   key={lang.name}
                 >
-                  <img src={lang.img} className="" alt="" />
+                  <img src={lang.languageImg} className="" alt="" />
                   <p className="text-grey2 pt-1">{lang.name}</p>
                 </div>
               );
@@ -93,7 +93,7 @@ const Technical = () => {
                   className="col-lg-2 col-4 text-center mb-4 pt-2"
                   key={b.name}
                 >
-                  <img src={`${b.img}`} className="" alt="" />
+                  <img src={`${b.backendImg}`} className="" alt="" />
                   <p className="text-grey2 pt-1">{b.name}</p>
                 </div>
               );
@@ -109,7 +109,7 @@ const Technical = () => {
                   className="col-lg-2 col-4 text-center mb-4 pt-2"
                   key={d.name}
                 >
-                  <img src={`${d.img}`} className="" alt="" />
+                  <img src={`${d.deploymentImg}`} className="" alt="" />
                   <p className="text-grey2 pt-1">{d.name}</p>
                 </div>
               );
