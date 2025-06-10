@@ -1,14 +1,14 @@
 import React from "react";
 
-import lImg1 from "../assets/img/skills/front/1.png";
-import lImg9 from "../assets/img/skills/front/9.png";
-import lImg2 from "../assets/img/skills/front/2.png";
-import lImg3 from "../assets/img/skills/front/3.png";
-import lImg8 from "../assets/img/skills/front/8.png";
-import lImg6 from "../assets/img/skills/front/6.png";
-import lImg4 from "../assets/img/skills/front/4.png";
-import lImg5 from "../assets/img/skills/front/5.png";
-import lImg7 from "../assets/img/skills/front/7.png";
+import lImg_1 from "../assets/img/skills/front/1.png";
+import lImg_9 from "../assets/img/skills/front/9.png";
+import lImg_2 from "../assets/img/skills/front/2.png";
+import lImg_3 from "../assets/img/skills/front/3.png";
+import lImg_8 from "../assets/img/skills/front/8.png";
+import lImg_6 from "../assets/img/skills/front/6.png";
+import lImg_4 from "../assets/img/skills/front/4.png";
+import lImg_5 from "../assets/img/skills/front/5.png";
+import lImg_7 from "../assets/img/skills/front/7.png";
 
 import bImg1 from "../assets/img/skills/backend/1.png";
 import bImg2 from "../assets/img/skills/backend/2.png";
@@ -28,15 +28,15 @@ import dImg6 from "../assets/img/skills/deployment/6.png";
 
 const Technical = () => {
   const language = [
-    { languageImg: lImg1, name: "React" },
-    { languageImg: lImg9, name: "Redux" },
-    { languageImg: lImg2, name: "Javascript" },
-    { languageImg: lImg3, name: "Typescript" },
-    { languageImg: lImg8, name: "JSON" },
-    { languageImg: lImg6, name: "JQuery" },
-    { languageImg: lImg4, name: "Bootstrap" },
-    { languageImg: lImg5, name: "Css3" },
-    { languageImg: lImg7, name: "HTML5" },
+    { languageImg: lImg_1, name: "React" },
+    { languageImg: lImg_9, name: "Redux" },
+    { languageImg: lImg_2, name: "Javascript" },
+    { languageImg: lImg_3, name: "Typescript" },
+    { languageImg: lImg_8, name: "JSON" },
+    { languageImg: lImg_6, name: "JQuery" },
+    { languageImg: lImg_4, name: "Bootstrap" },
+    { languageImg: lImg_5, name: "Css3" },
+    { languageImg: lImg_7, name: "HTML5" },
   ];
 
   const backend = [
