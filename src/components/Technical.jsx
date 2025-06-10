@@ -93,7 +93,7 @@ const Technical = () => {
                   className="col-lg-2 col-4 text-center mb-4 pt-2"
                   key={b.name}
                 >
-                  <img src={`${b.backendImg}`} className="" alt="" />
+                  <img src={b.backendImg} className="" alt="" />
                   <p className="text-grey2 pt-1">{b.name}</p>
                 </div>
               );
@@ -109,7 +109,7 @@ const Technical = () => {
                   className="col-lg-2 col-4 text-center mb-4 pt-2"
                   key={d.name}
                 >
-                  <img src={`${d.deploymentImg}`} className="" alt="" />
+                  <img src={d.deploymentImg} className="" alt="" />
                   <p className="text-grey2 pt-1">{d.name}</p>
                 </div>
               );
