@@ -120,7 +120,7 @@ span {
 }
 .bg-orangeGradient {
   /* background-image: linear-gradient(90deg, var(--bs-white), var(--black)); */
-  background: linear-gradient(180deg, var(--grey) 50%, var(--black) 0);
+  background: linear-gradient(130deg, var(--grey) 50%, var(--black) 0);
   background-size: cover !important;
 }
 .subtitle {

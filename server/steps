@@ -1,0 +1,7 @@
+// database.js -> Do connection with MongODB
+// DB creation
+// create new Projects
+// create Cluster
+// DB user Creation & save password & url
+// connect with compass
+// network access (allow from anywhare)

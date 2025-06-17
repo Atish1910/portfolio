@@ -14,8 +14,8 @@ import logo from "/assets/img/logo/logo.png";
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero cv={cv} />
+      <Navbar cv={cv} />
+      <Hero />
       <Overview cv={cv} />
       <About cv={cv} />
       <Technical />

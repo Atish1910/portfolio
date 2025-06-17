@@ -11,7 +11,7 @@ const navItems = [
   { name: "Contact Me", id: "contact-me" },
 ];
 
-const Navbar = () => {
+const Navbar = ({ cv }) => {
   const [activeId, setActiveId] = useState("");
 
   useEffect(() => {
@@ -66,7 +66,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-black sticky-top shadow-sm">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#home">
+        <a className="navbar-brand fw-bold" href="">
           <img src={logo} alt="Logo" className="logo" />
         </a>
         <button
@@ -96,7 +96,11 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            <button className="btn c_btn rounded-pill px-4">Download CV</button>
+            <button className="btn c_btn rounded-pill px-4">
+              <a href={cv} target="_blank">
+                Download CV
+              </a>
+            </button>
           </ul>
         </div>
       </div>

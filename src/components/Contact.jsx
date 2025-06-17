@@ -19,8 +19,8 @@ const Contact = () => {
 
   return (
     <>
-      <section className="bg-grey py-5">
-        <div className="container">
+      <section className="bg-grey" id="contact-me">
+        <div className="container  py-5">
           <div className="row">
             <div className="col-lg-12 text-center d-flex justify-content-center mb-4">
               <h2 className="title-01 mb-0 py-2 px-5">Contact Me</h2>
