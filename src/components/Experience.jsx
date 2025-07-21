@@ -56,16 +56,16 @@ const Experience = () => {
                   aria-labelledby="e-tab-one-tab"
                 >
                   <div className="row project journey">
-                    <ul class="timeline">
+                    <ul className="timeline">
                       <li>
-                        <div class="direction-r">
-                          <div class="flag-wrapper">
-                            <span class="flag">Full Stack Developer</span>
-                            <span class="time-wrapper">
-                              <span class="time">GladOwl Pvt Ltd</span>
+                        <div className="direction-r">
+                          <div className="flag-wrapper">
+                            <span className="flag">Full Stack Developer</span>
+                            <span className="time-wrapper">
+                              <span className="time">GladOwl Pvt Ltd</span>
                             </span>
                           </div>
-                          <div class="desc">
+                          <div className="desc">
                             <ul>
                               <li>
                                 Collaborated with cross-functional teams to
@@ -108,26 +108,26 @@ const Experience = () => {
                                 Express.js and MongoDB to support efficient
                                 backend operations.
                               </li>
-                              <p class="text-fw-bold text-bold d-lg-none">
+                              <p className="text-fw-bold text-bold d-lg-none">
                                 June 2024 - Present
                               </p>
                             </ul>
                           </div>
-                          <p class="text-fw-bold d-none d-lg-block">
+                          <p className="text-fw-bold d-none d-lg-block">
                             June 2024 - Present
                           </p>
                         </div>
                       </li>
 
                       <li>
-                        <div class="direction-l">
-                          <div class="flag-wrapper">
-                            <span class="flag">Web Developer</span>
-                            <span class="time-wrapper">
-                              <span class="time">Being Addictive</span>
+                        <div className="direction-l">
+                          <div className="flag-wrapper">
+                            <span className="flag">Web Developer</span>
+                            <span className="time-wrapper">
+                              <span className="time">Being Addictive</span>
                             </span>
                           </div>
-                          <div class="desc">
+                          <div className="desc">
                             <ul>
                               <li>
                                 Acquired hands-on experience in PHP for dynamic
@@ -156,25 +156,25 @@ const Experience = () => {
                                 client satisfaction through learning and
                                 delivering quality-driven solutions.
                               </li>
-                              <p class="text-fw-bold d-lg-none">
+                              <p className="text-fw-bold d-lg-none">
                                 Oct 2023 - May 2024
                               </p>
                             </ul>
                           </div>
-                          <p class="text-fw-bold d-none d-lg-block">
+                          <p className="text-fw-bold d-none d-lg-block">
                             Oct 2023 - May 2024
                           </p>
                         </div>
                       </li>
                       <li>
-                        <div class="direction-r">
-                          <div class="flag-wrapper">
-                            <span class="flag">System Engineer</span>
-                            <span class="time-wrapper">
-                              <span class="time">Infosys</span>
+                        <div className="direction-r">
+                          <div className="flag-wrapper">
+                            <span className="flag">System Engineer</span>
+                            <span className="time-wrapper">
+                              <span className="time">Infosys</span>
                             </span>
                           </div>
-                          <div class="desc">
+                          <div className="desc">
                             <ul>
                               <li>
                                 Completed 90 days of intensive technical
@@ -188,12 +188,12 @@ const Experience = () => {
                                 transitioning into a professional development
                                 environment.
                               </li>
-                              <p class="text-fw-bold d-lg-none">
+                              <p className="text-fw-bold d-lg-none">
                                 June 2022 - Oct 2022
                               </p>
                             </ul>
                           </div>
-                          <p class="text-fw-bold d-lg-block d-none">
+                          <p className="text-fw-bold d-lg-block d-none">
                             June 2022 - Oct 2022
                           </p>
                         </div>
@@ -208,16 +208,20 @@ const Experience = () => {
                   aria-labelledby="e-tab-two-tab"
                 >
                   <div className="row project journey">
-                    <ul class="timeline">
+                    <ul className="timeline">
                       <li>
-                        <div class="direction-r">
-                          <div class="flag-wrapper">
-                            <span class="flag">Full Stack Web Development</span>
-                            <span class="time-wrapper">
-                              <span class="time">Marvellous Infosystem</span>
+                        <div className="direction-r">
+                          <div className="flag-wrapper">
+                            <span className="flag">
+                              Full Stack Web Development
+                            </span>
+                            <span className="time-wrapper">
+                              <span className="time">
+                                Marvellous Infosystem
+                              </span>
                             </span>
                           </div>
-                          <div class="desc">
+                          <div className="desc">
                             <p>
                               Marvelous Infosystem's teachings encompass React,
                               Javascript, MongoDB, Node.js, and Express.js a
@@ -258,12 +262,12 @@ const Experience = () => {
                                 features and middleware.
                               </li>
                             </ul>
-                            <p class="text-fw-bold d-lg-none">
+                            <p className="text-fw-bold d-lg-none">
                               {" "}
                               Feb 2023 To Jan 2024
                             </p>
                           </div>
-                          <p class="text-fw-bold d-lg-block d-none">
+                          <p className="text-fw-bold d-lg-block d-none">
                             {" "}
                             Feb 2023 To Jan 2024
                           </p>
@@ -271,48 +275,48 @@ const Experience = () => {
                       </li>
 
                       <li>
-                        <div class="direction-l">
-                          <div class="flag-wrapper">
-                            <span class="flag">
+                        <div className="direction-l">
+                          <div className="flag-wrapper">
+                            <span className="flag">
                               Bachelor of Engineering | CGPA - 7.49/10
                             </span>
-                            <span class="time-wrapper">
-                              <span class="time">
+                            <span className="time-wrapper">
+                              <span className="time">
                                 RMD Sinhagad Institute of Technology Pune
                               </span>
                             </span>
                           </div>
-                          <div class="desc ">
-                            <p class="text-fw-bold d-lg-none mb-0">
+                          <div className="desc ">
+                            <p className="text-fw-bold d-lg-none mb-0">
                               {" "}
                               Aug 2018 - Nov 2021
                             </p>
                           </div>
-                          <p class="text-fw-bold d-lg-block d-none">
+                          <p className="text-fw-bold d-lg-block d-none">
                             {" "}
                             Aug 2018 - Nov 2021
                           </p>
                         </div>
                       </li>
                       <li>
-                        <div class="direction-r">
-                          <div class="flag-wrapper">
-                            <span class="flag">
+                        <div className="direction-r">
+                          <div className="flag-wrapper">
+                            <span className="flag">
                               Diploma in Mechanical Engineering | CGPA - 5.7/10
                             </span>
-                            <span class="time-wrapper">
-                              <span class="time">
+                            <span className="time-wrapper">
+                              <span className="time">
                                 Cusrow Wadia Institute Of Technology
                               </span>
                             </span>
                           </div>
-                          <div class="desc">
-                            <p class="text-fw-bold d-lg-none mb-0">
+                          <div className="desc">
+                            <p className="text-fw-bold d-lg-none mb-0">
                               {" "}
                               Feb 2014 To Jan 2018
                             </p>
                           </div>
-                          <p class="text-fw-bold d-none d-lg-block mb-0">
+                          <p className="text-fw-bold d-none d-lg-block mb-0">
                             {" "}
                             Feb 2014 To Jan 2018
                           </p>

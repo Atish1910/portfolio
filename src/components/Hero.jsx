@@ -39,7 +39,7 @@ const Hero = ({ cv }) => {
               <div className="pt-4">
                 <button className="btn c_btn rounded-pill px-4">
                   <a href={cv} target="_blank">
-                    Download cv
+                    Download CV
                   </a>
                 </button>
               </div>

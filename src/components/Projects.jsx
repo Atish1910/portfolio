@@ -6,6 +6,8 @@ import fullImg3 from "../assets/img/project/backend/3.png";
 import frontImg1 from "../assets/img/project/frontend/1.png";
 import frontImg2 from "../assets/img/project/frontend/2.png";
 import frontImg3 from "../assets/img/project/frontend/3.png";
+import frontImg4 from "../assets/img/project/frontend/4.png";
+import frontImg5 from "../assets/img/project/frontend/5.png";
 
 const Projects = () => {
   const fullstack = [
@@ -33,6 +35,20 @@ const Projects = () => {
   ];
 
   const frontend = [
+    {
+      img: frontImg5,
+      title: "Acadex Smart ERP Solutions",
+      techstack: "React, redux toolkit",
+      link: "https://acadex-eight.vercel.app/",
+      git: "acadex",
+    },
+    {
+      img: frontImg4,
+      title: "Order Managment",
+      techstack: "React, redux toolkit, html2pdf",
+      link: "https://redberyl-nine.vercel.app/",
+      git: "redberyl",
+    },
     {
       img: frontImg1,
       title: "E Commerce",
@@ -111,9 +127,9 @@ const Projects = () => {
                   aria-labelledby="tab-one-tab"
                 >
                   <div className="row project">
-                    {fullstack.map((f) => {
+                    {fullstack.map((f, i) => {
                       return (
-                        <div className="col-lg-4 mb-4">
+                        <div className="col-lg-4 mb-4" key={i}>
                           <div className="card ">
                             <div className="img-box position-relative">
                               <img
@@ -164,9 +180,9 @@ const Projects = () => {
                   aria-labelledby="tab-two-tab"
                 >
                   <div className="row project">
-                    {frontend.map((f) => {
+                    {frontend.map((f, i) => {
                       return (
-                        <div className="col-lg-4 mb-4">
+                        <div className="col-lg-4 mb-4" key={i}>
                           <div className="card ">
                             <div className="img-box position-relative">
                               <img

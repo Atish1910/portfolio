@@ -21,7 +21,7 @@ const About = ({ cv }) => {
                 Full Stack Developer &nbsp; | &nbsp; Front-End Developer
               </p>
               <p>
-                Versatile web developer with over 2 years of experience in
+                Versatile web developer with over 2.5+ years of experience in
                 building modern front-end applications using React.js, HTML,
                 CSS, and JavaScript. Skilled in integrating REST APIs for
                 seamless data flow and dynamic content updates. Proficient in

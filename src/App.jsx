@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Navbar cv={cv} />
-      <Hero />
+      <Hero cv={cv} />
       <Overview cv={cv} />
       <About cv={cv} />
       <Technical />
